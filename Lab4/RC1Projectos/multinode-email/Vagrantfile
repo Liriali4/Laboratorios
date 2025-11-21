@@ -31,7 +31,7 @@ Vagrant.configure(2) do |config|
        vb.customize opts
        vb.memory = "256"
      end # of vb
-     client_config.vm.provision "shell", path: "bootstrap-client.sh"
+     client_config.vm.provision "shell", path: "bootstrap_client.sh"
    end # of client_config
 
 end # of config
